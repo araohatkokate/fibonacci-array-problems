@@ -62,6 +62,14 @@ Hence, the time complexity is \( O(N X K log K) \).
 - **Parallel Processing**: If the arrays are large, you could explore parallelizing the merge operation for further performance improvement.
 
 ## Problem 2: Removing duplicates from sorted array
+### Time Complexity :
+
+The algorithm only requires one pass through the array, so the time complexity is \( O(N) \), where \( N \) is the size of the array.
+
+### Improvements :
+
+- **Memory Usage**: This algorithm is already optimal in terms of memory since it operates in-place.
+- **Early Exit Optimization**: If the input array is very large and contains few duplicates, you could add a condition to exit early if no duplicates are found after some point.
 
 
 

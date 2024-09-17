@@ -51,10 +51,10 @@
 ### Implementation : In k_sorted_arrays.py file
 ### Time Complexity :
 
-Inserting into and removing from the heap both take \( O(\log K) \), where \( K \) is the number of arrays.  
-Since we process every element in each array, the total number of elements is \( N \times K \). For each element, we perform a heap operation.
+Inserting into and removing from the heap both take \( O(log K) \), where \( K \) is the number of arrays.  
+Since we process every element in each array, the total number of elements is \( N X K \). For each element, we perform a heap operation.
 
-Hence, the time complexity is \( O(N \times K \log K) \).
+Hence, the time complexity is \( O(N X Klog K) \).
 
 ### Improvements :
 

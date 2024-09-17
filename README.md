@@ -48,3 +48,20 @@
 5. **Observe the call stack**
 
 ## Problem 1: Merging K Sorted Arrays
+### Implementation : In k_sorted_arrays.py file
+### Time Complexity :
+
+Inserting into and removing from the heap both take \( O(log K) \), where \( K \) is the number of arrays.  
+Since we process every element in each array, the total number of elements is \( N X K \). For each element, we perform a heap operation.
+
+Hence, the time complexity is \( O(N X K log K) \).
+
+### Improvements :
+
+- **Optimizing the Heap Structure**: You could experiment with more advanced heap structures such as a **Fibonacci heap**, but the practical gain may not be significant for typical inputs.
+- **Parallel Processing**: If the arrays are large, you could explore parallelizing the merge operation for further performance improvement.
+
+## Problem 2: Removing duplicates from sorted array
+
+
+
